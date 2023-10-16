@@ -2,7 +2,7 @@
 
 This document provides guidance on setting up and running both the back-end and front-end parts of the Simple-Full-Stack-Web-Application.
 
-## **Back-end Setup and Running**
+## **Back-end Setup and Running (Nest.js + MySql)**
 
 1. **Clone the project:**
     ```bash
@@ -38,7 +38,7 @@ This document provides guidance on setting up and running both the back-end and 
    
    Access the back-end through: [http://localhost:5000](http://localhost:5000)
 
-## **Front-end Setup and Running**
+## **Front-end Setup and Running (React.js)**
 
 1. **Navigate to the frontend directory:**
     ```bash
