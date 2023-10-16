@@ -1,0 +1,85 @@
+/* Style for the user list container */
+div {
+    margin: 20px;
+  }
+  
+  /* Style for the table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  /* Style for table headings */
+  th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Style for table cells */
+  td {
+    padding: 10px;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Style for action buttons */
+  button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Optional: Add some spacing and alignment */
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  /* Optional: Center align the table */
+  table {
+    margin: 0 auto;
+  }
+  
+  /* Optional: Style for the delete button (you can add more styles as needed) */
+  button.delete-button {
+    background-color: #ff3333;
+  }
+  
+  button.delete-button:hover {
+    background-color: #ff0000;
+  }
+  
+  .users-list {
+    padding: 20px;
+}
+
+.users-list table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.users-list th, .users-list td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+.users-list tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+
+/* Add this style to make the Delete button red */
+.delete-button {
+  background-color: red;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
