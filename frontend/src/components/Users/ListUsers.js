@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback } from 'react'; // <-- Added useCallback
 import api from '../../api';
-import './Users.css';
+import '../../styles.css';
 import { useNavigate } from 'react-router-dom';
 import Snackbar from '@mui/material/Snackbar';
 import MuiAlert from '@mui/material/Alert';

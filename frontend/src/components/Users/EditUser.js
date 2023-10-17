@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Typography, TextField, Button, Container, Grid } from '@mui/material';
-import './Users.css';
+// import '../../styles.css';
 import api from '../../api';
 import Alert from '@mui/material/Alert';
 import { useNavigate, useParams } from 'react-router-dom';
@@ -169,7 +169,7 @@ const EditUser = () => {
         open={openSnackbar}
         autoHideDuration={6000}
         onClose={() => setOpenSnackbar(false)}
-        anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
+        anchorOrigin={{ vertical: 'top', horizontal: 'center' }}
       >
         <Alert onClose={() => setOpenSnackbar(false)} severity={alertSeverity}>
           {alertMessage}

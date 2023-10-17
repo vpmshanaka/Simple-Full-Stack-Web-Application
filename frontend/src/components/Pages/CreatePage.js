@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import '../../styles.css';
 import { Typography, TextField, Button, Container, Grid } from '@mui/material';
 import api from '../../api';
 import Alert from '@mui/material/Alert';
